@@ -1,0 +1,350 @@
+ body {
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    .navbar {
+      background-color: #fff;
+      border-bottom: 1px solid #000;
+      padding: 10px 25px;
+    }
+
+    .navbar-brand img {
+      height: 40px;
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+
+    .navbar-nav .nav-link {
+      color: #000;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin: 5px 10px;
+    }
+
+    .navbar-nav .nav-link:hover {
+      color: #f9a825;
+    }
+
+    .dropdown-menu {
+      border: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .lang {
+      font-weight: 600;
+    }
+
+    .lang .active {
+      color: #f9a825;
+    }
+
+    .lang span {
+      color: #000;
+      margin: 0 6px;
+    }
+
+
+    @media (max-width: 992px) {
+      .lang {
+        text-align: center;
+        margin-top: 10px;
+      }
+    }
+       .jumbotron {
+      position: relative;
+      width: 100%;
+      height: 50vh; 
+      overflow: hidden;
+    }
+
+    .jumbotron img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
+    }
+
+   
+    @media (max-width: 768px) {
+      .jumbotron {
+        height: 45vh;
+      }
+    }
+      body {
+      background-color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .ticket-card {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+    }
+
+    .ticket-card.white {
+      background: #fff;
+      color: #000;
+    }
+
+    .ticket-card.teal {
+      background: #00a8a8;
+      background-image: url('https://www.transparenttextures.com/patterns/palm-leaf.png');
+    }
+
+    .ticket-card.yellow {
+      background: #f9b233;
+      background-image: url('https://www.transparenttextures.com/patterns/large-leaves.png');
+    }
+
+    .ticket-info {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .ticket-info h4 {
+      font-weight: 700;
+      font-size: 1.4rem;
+    }
+
+    .ticket-info p {
+      margin: 5px 0;
+      font-size: 0.95rem;
+    }
+
+    .ticket-price {
+      text-align: right;
+      min-width: 200px;
+    }
+
+    .ticket-price .price {
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+
+    .ticket-price small {
+      font-size: 0.85rem;
+    }
+
+    .discount {
+      color: #ff9800;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .btn-select {
+      background-color: #0066cc;
+      color: #fff;
+      border-radius: 5px;
+      font-weight: 600;
+      padding: 8px 20px;
+    }
+
+    .btn-select:hover {
+      background-color: #004a99;
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      .ticket-card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .ticket-price {
+        text-align: left;
+        margin-top: 10px;
+      }
+    }
+    body {
+      background: linear-gradient(135deg, #eef3f8, #fdfdfd);
+      font-family: "Poppins", sans-serif;
+      padding: 50px 15px;
+    }
+
+    .booking-form {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+      padding: 40px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .booking-form h2 {
+      text-align: center;
+      color: #004c8c;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .form-label {
+      font-weight: 500;
+      color: #555;
+    }
+
+    .input-group-text {
+      background-color: #0077cc;
+      color: white;
+      border: none;
+    }
+
+    .form-control:focus, .form-select:focus {
+      border-color: #0077cc;
+      box-shadow: 0 0 0 0.2rem rgba(0, 119, 204, 0.25);
+    }
+
+    button {
+      background-color: #0077cc;
+      border: none;
+      transition: 0.3s;
+      font-weight: 500;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+      body {
+      background: #f7f9fc;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .addon-card {
+      background: #fff;
+      border: 1px solid #e0e6ed;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      padding: 18px 24px;
+      margin-bottom: 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.3s ease;
+    }
+    .addon-card:hover {
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+
+    .addon-info {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .addon-info i {
+      background: #e3f2fd;
+      color: #007bff;
+      border-radius: 50%;
+      padding: 8px;
+      font-size: 1.2rem;
+    }
+
+    .addon-title {
+      font-weight: 700;
+      font-size: 1rem;
+      color: #222;
+    }
+
+    .addon-desc {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .select-btn {
+      background: #007bff;
+      border: none;
+      color: #fff;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+    }
+
+    .select-btn:hover {
+      background: #0056b3;
+      transform: scale(1.03);
+    }
+
+    /* Promo Section */
+    .promo-section {
+      background: #fff;
+      border: 1px solid #e0e6ed;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      padding: 24px;
+      margin-top: 20px;
+    }
+
+    .form-control {
+      border-radius: 6px;
+    }
+
+    .apply-btn {
+      background: #007bff;
+      color: #fff;
+      font-weight: 600;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .apply-btn:hover {
+      background: #0056b3;
+      transform: scale(1.03);
+    }
+
+    .checkbox-label {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.9rem;
+      color: #444;
+      margin-top: 15px;
+    }
+      .footer {
+    background: linear-gradient(180deg, #0d1b2a 0%, #000814 100%);
+    color: #ddd;
+  }
+
+  .footer-link {
+    color: #d9ecff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 0;
+    transition: 0.3s;
+  }
+  .footer-link:hover {
+    color: #00bfff;
+    transform: translateX(4px);
+  }
+
+  .social-icons a {
+    color: #fff;
+    font-size: 1.4rem;
+    transition: 0.3s;
+  }
+  .social-icons a:hover {
+    color: #00bfff;
+    transform: translateY(-3px);
+  }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #aaa;
+    font-size: 0.9rem;
+  }
+
+  .wonderful-logo {
+    width: 140px;
+    opacity: 0.8;
+    margin-top: 10px;
+  }
